@@ -1,11 +1,33 @@
 {
   "name": "justfortest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A minimal single-page Markdown Notebook app, deployable on Vercel.",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.0",
+    "dompurify": "2.0.7",
+    "ejs": "2.7.4",
+    "handlebars": "4.0.11",
+    "jquery": "3.3.1",
+    "lodash": "4.17.11",
+    "marked": "4.0.0",
+    "minimist": "1.2.0",
+    "moment": "2.19.3",
+    "node-fetch": "2.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "serialize-javascript": "2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^8.0.16"
+  }
 }
